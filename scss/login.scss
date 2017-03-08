@@ -1,0 +1,23 @@
+@import 'colors';
+
+.right{
+  @include position(fixed);
+
+    @include display(flex);
+    @include flex-direction(column);
+    @include align-items(center);
+    @include justify-content(center);
+
+  height: 100vh;
+  width: 100vw;
+
+  background: $primary;
+}
+
+.login-button{
+  @include position(absolute);
+  top: 50%;
+  left: 50%;
+
+  @include transform(translate3d(-50%, -50%, 0));
+}
