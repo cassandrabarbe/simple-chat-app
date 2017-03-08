@@ -9,7 +9,7 @@
   font-size: 2em;
   color: white;
   margin: 0;
-  margin-top: 4.5em;
+  margin-top: 5.2em;
   border-color: white;
 }
 
@@ -31,4 +31,5 @@ h1 {
 
 .photo {
   margin-bottom: 10px;
+  margin-bottom: 2em;
 }
